@@ -48,7 +48,7 @@ if openai_api_key and pinecone_api_key:
     pc = Pinecone(api_key=pinecone_api_key)
 
     # Select the Pinecone index
-    index = pc.Index("rec14")
+    index = pc.Index("rec15")
 
     # Dropdown menu for insurance types
     insurance_type = st.selectbox("Select Insurance Type", options=list(id.keys()))
