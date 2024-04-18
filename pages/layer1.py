@@ -24,12 +24,12 @@ if openai_api_key and pinecone_api_key:
     
     # Dictionary mapping types to IDs
     id = {
-        "Retirement": "fb426e47-6a0e-4474-b041-9cd424f56bec",
-        "Term Insurance": "544192f1-d025-49f4-90b1-898b5fd12a74",
-        "Health Insurance": "2fbc4a5d-2a72-472e-bdb4-116db1cce371",
-        "Savings Plan": "2fbc4a5d-2a72-472e-bdb4-116db1cce371",
-        "ULIP Plan": "eba418c1-3a58-4174-a8b4-131bb6525feb",
-        "Guaranteed Wealth Builder Plans": "2fd100ff-5328-49c5-a39b-7f4c7c1a898f"
+        "Retirement": "d3dcb4ca-6130-4685-8ecd-a596b2d6b578",
+        "Term Insurance": "ef2b66b4-6541-406e-90c3-3461a0175e9e",
+        "Health Insurance": "7d079fc8-43da-4645-9610-4646a7e66d2b",
+        "Savings Plan": "941be9c1-7d77-4f15-b768-4c59f5b861a4",
+        "ULIP Plan": "11ae8662-0cb0-486a-bff7-fb0a1c12d037",
+        "Guaranteed Wealth Builder Plans": "46cb7617-a687-403d-8ab4-d2862c9faa5a"
     }
 
     # Function to get embedding
