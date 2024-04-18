@@ -62,6 +62,6 @@ if openai_api_key and pinecone_api_key:
         
         # Update the Pinecone index with the new embedding and metadata
         # Ensure values are in the correct format (list of embeddings for a single entry)
-        index.upsert(items=[(id, embedding, {"text": raw_text[:100]})])
+        index.upsert(vectors=[{"id":id,"values": embedding,"metadata":{"text": raw_text[:100]})])
         
         st.success("Uploaded Successfully")
