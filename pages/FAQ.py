@@ -32,7 +32,7 @@ if openai_api_key and pinecone_api_key:
     pc = Pinecone(api_key=pinecone_api_key)
 
     # Select the Pinecone index
-    index = pc.Index("faq2")
+    index = pc.Index("faq3")
 
     # Function to generate a unique ID based on the current datetime
     def generate_unique_id():
